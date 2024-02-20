@@ -1,0 +1,32 @@
+.main-footer {
+    position: relative;
+    margin-top: 11em;
+    padding-bottom: 5em;
+    z-index: 2;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 66em;
+    width: 90%;
+}
+
+.corporate-footer {
+    margin-top: 2.14286em;
+    padding-bottom: 0.57143em;
+    border-bottom: 0.07143em solid #dcdcdc;
+}
+
+.footer__logo {
+    width: 12.85714em;
+    height: auto;
+}
+
+@media screen and (min-width: 52em) {
+    .corporate-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
